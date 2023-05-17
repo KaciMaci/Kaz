@@ -42,7 +42,7 @@
         layer_1 {
             bindings = <
     &mt F2 N1     &mt F3 N2     &mt F4 N3     &mt F5 N4     &mt F6 N5     &mt F7 N6     &mt F8 N7     &mt F9 N8      &mt F10 N9    &mt F11 N0 
-    &kp F1       &none      &kp UP      &none      &none      &none      &none      &none       &none     &kp F12 
+    &kp F1       &none      &kp UP      &none      &none      &none      &none      &none       &bootloader     &kp F12 
     &kp LSHFT                 &kp LEFT      &kp RIGHT      &none      &none      &none      &none       &none     &kp CAPS
     &kp LCTRL       &kp LALT    &kp DOWN         &kp SPACE              &kp SPACE                 &kp ENTER     &kp BACKSPACE    &trans
             >;
