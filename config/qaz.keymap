@@ -51,9 +51,9 @@
     layer_2 {
             bindings = <
     &kp Q     &kp W      &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O      &kp P
-    &kp A     &kp S      &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L      &kp ENTER
+    &kp A     &kp S      &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L      &kp SEMICOLON
     &kp Z                &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp DOT  &kp CAPS
-    &kp LCTRL  &kp LGUI   &kp LALT       &kp SPACE    &kp SPACE     &trans    &kp BACKSPACE   &kp DELETE    
+    &kp LCTRL  &kp LGUI   &kp LALT       &kp SPACE    &kp SPACE     &trans    &kp BACKSPACE   &kp ENTER    
             >;
         };
         
@@ -62,7 +62,7 @@
     &kp ESC     &kp Q     &kp W      &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp P
     &kp TAB     &kp A     &kp S      &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp ENTER
     &kp LSHFT    &kp Z                &kp X       &kp C       &kp V       &kp B       &kp N       &kp M      &kp CAPS
-    &kp LCTRL  &none   &kp LALT       &kp SPACE    &kp SPACE     &kp F24     &trans    &mt F15 F14
+    &kp LCTRL  &none   &kp LALT       &kp SPACE    &kp SPACE     &mt F24 F25    &trans    &mt F15 F14
           >;
        };
     };
