@@ -44,7 +44,7 @@
     &mt F2 N1     &mt F3 N2     &mt F4 N3     &mt F5 N4     &mt F6 N5     &mt F7 N6     &mt F8 N7     &mt F9 N8      &mt F10 N9    &mt F11 N0 
     &kp F1       &none      &kp UP      &none      &none      &none      &none      &none       &none     &kp F12 
     &kp LSHFT                 &kp LEFT      &kp RIGHT      &none      &none      &none      &none       &bt BT_CLR     &kp CAPS
-    &trans       &kp LGUI    &kp DOWN         &kp SPACE              &kp SPACE                 &kp ENTER     &kp BACKSPACE    &bootloader
+    &trans       &kp LC(RA)    &kp DOWN         &kp SPACE              &kp SPACE                 &kp ENTER     &kp BACKSPACE    &bootloader
             >;
         };
 
@@ -62,7 +62,7 @@
     &kp ESC     &kp Q     &kp W      &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp P
     &kp TAB     &kp A     &kp S      &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp ENTER
     &kp LSHFT    &kp Z                &kp X       &kp C       &kp V       &kp B       &kp N       &kp M      &kp CAPS
-    &kp LCTRL  &none   &kp LALT       &kp SPACE    &kp SPACE       &trans     &mt F24 F23     &mt F15 F14
+    &kp LCTRL  &none   &kp LALT       &kp SPACE    &kp SPACE       &trans     &mt C_PP C_NEXT     &mt F15 F14
           >;
        };
     };
