@@ -22,6 +22,13 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHIFT>, <&kp CAPS>;
+        };
     };
 };
 
@@ -33,7 +40,7 @@
             bindings = <
     &kp Q     &kp W      &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O      &kp P
     &kp A     &kp S      &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L      &mt UNDERSCORE SEMICOLON
-    &kp Z                &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &mt COMMA DOT  &kp LSHIFT
+    &kp Z                &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &mt COMMA DOT  &td0
     &mo layer_1  &mt LCTRL LGUI     &kp LALT       &kp SPACE    &kp SPACE     &tog layer_2    &kp BACKSPACE   &kp ENTER    
             >;
         };
@@ -52,7 +59,7 @@
     &kp ESC     &kp Q     &kp W      &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &mt P O
     &kp TAB     &kp A     &kp S      &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L
     &kp LSHFT    &kp Z                &kp X       &kp C       &kp V       &kp B       &kp N       &kp M      &kp N
-    &kp LCTRL  &kp F13   &kp LALT       &kp SPACE    &kp SPACE       &trans     &mt C_NEXT C_PP      &mt F15 F14
+    &kp LCTRL  &kp F13   &kp LALT       &kp SPACE    &kp SPACE       &trans     &mt F15 F14    &mt C_NEXT C_PP
           >;
        };
     };
